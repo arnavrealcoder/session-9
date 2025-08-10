@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Decorate text</title> 
+    <style>
+        .p1{
+            color: black;
+            font-size: 1.4em;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .p2{
+            color: black; font-size: 1.9em; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            transform: rotate(180deg);
+        }
+        .box{
+            background-color: yellow;
+            width: 200px; height: 150px;
+            border: 2px solid;
+            padding: 5px;
+        }
+        h1{
+            text-decoration: overline;
+            text-transform: capitalize;
+        }
+        h2{
+            text-decoration: line-through;
+            text-transform: uppercase;
+        }
+        h3{
+            text-decoration: underline;
+            text-transform: lowercase;
+        }
+
+        h4{
+            text-decoration: underline overline;
+            text-transform: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Transform</h1>
+    <h1>Hi nice to meet you</h1>
+    <h2>Hi nice to meet you</h2> 
+    <h3>Hi nice to meet you</h3>
+    <h4>Hi nice to meet you</h4>
+    <h5>Hi nice to meet you</h5>
+    <h6>Hi nice to meet you</h6>
+    
+    <div class="box"><p class="p1">Hi my name is arnav</p></div> 
+    <div class="box"><p class="p2">I am 14 years old</p></div>
+
+
+</body>
+</html>
